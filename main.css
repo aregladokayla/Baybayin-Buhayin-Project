@@ -1,0 +1,104 @@
+html {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #F2F2F2;
+}
+
+@font-face { 
+    font-family: 'Matatas One';
+    src: url('assets/MatatasOne-Bold.woff2') format('woff2'), url('assets/MatatasOne-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 0;
+    color: #F2BD1D;
+}
+
+h1 span {
+    font-family: 'Matatas One';
+    font-style: normal;
+    font-size: 6rem;
+    color: black;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(148, 148, 148);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(148, 148, 148);
+}
+
+a:hover {
+  color: black;
+  transition-duration: 0.3s;
+}
+
+.try a {
+    color: black;
+}
+
+#nav {
+  margin: 10rem;
+  margin-top: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  position: absolute;
+  top: 0;
+  width: 85vw;
+  align-items: center;
+  align-content: center;
+  border-bottom: 1px solid black;
+
+
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#info {
+    width: 85vw;
+    margin: auto;
+    margin-top: 10rem;
+
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    grid-row-gap: 2rem;
+    grid-column-gap: 10rem;
+}
+
+#rules {
+    border-top: 1px solid black;
+    padding-top: 2rem;
+}
+
+#nationalism {
+    border-top: 1px solid black;
+    padding-top: 2rem;
+}
+
+.chart img {
+    position: absolute;
+    top: 53rem;
+    width: 37%;
+    filter: hue-rotate(30deg);
+
+}

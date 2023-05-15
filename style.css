@@ -1,0 +1,35 @@
+html {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@font-face { 
+  font-family:'Matatas One'; src:url(font/matatas_one.otf); 
+}  
+
+#cursor {
+  animation: blinker 1s step-end infinite; 
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+#demo {
+  background-color: #efefef;
+  width: 60%;
+  height: 100%;
+  padding: 0;
+  word-wrap: break-word;
+  text-align:center;
+  align-items: center;
+  font-family: 'Matatas One';
+  font-size: 100vh;
+  line-height: 1em;
+
+  display: flex;
+}
+
+.inner {
+  /*display:block;*/
+}
